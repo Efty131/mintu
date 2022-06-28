@@ -1,0 +1,36 @@
+.main{
+   background-image: url("../bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+Button{
+    width: 300px;
+}
+.b{
+    margin-left: 100px;
+}
+.title{
+    color: white;
+    font-size: 5rem;
+
+}
+@media only screen and (max-width: 600px) {
+    .b{
+        justify-content: center;
+        align-items: center;
+        margin-left:50px;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    Button{
+        width: 100px;
+    }
+  }
